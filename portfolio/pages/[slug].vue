@@ -26,7 +26,7 @@
   const route = useRoute();
   const {data} = await useFetch("https://62fe137ba85c52ee482f275b.mockapi.io/api/v1/posts")
   const articles = reactive(data._value)
-  const article = articles.find((article) => article.slug === route.params.id)
+  const article = articles.find((article) => article.slug === route.params.slug)
   console.log(article)
 
 
