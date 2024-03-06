@@ -17,6 +17,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem porro molestiae iste quo asperiores ad laboriosam vel. Rem aliquam modi quia aut architecto fugit ea esse ratione? Dolores, ducimus molestiae.</p>
             </div>
         </section>
+        <RatingComponent/>
         <Comments/>
     </article>
 </template>
